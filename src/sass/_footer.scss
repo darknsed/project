@@ -1,0 +1,161 @@
+footer {
+  max-width: 1300px;
+  display: flex;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  p,
+  a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.logo {
+  max-width: 90px;
+  max-height: 107px;
+  align-self: center;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.hr1 {
+  height: 196px;
+  width: 0;
+  background: linear-gradient(
+    179.87deg,
+    #343045 0.47%,
+    #343045 0.47%,
+    #c0b7e8 35.21%,
+    #8176af 68.91%,
+    #343045 99.5%
+  );
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    179.87deg,
+    #343045 0.47%,
+    #343045 0.47%,
+    #c0b7e8 35.21%,
+    #8176af 68.91%,
+    #343045 99.5%
+  );
+  border-image-slice: 1;
+  margin: 0 auto;
+}
+.socialize {
+  width: 300px;
+  .socialize__text {
+    margin-left: 5px;
+    margin-bottom: 39px;
+  }
+  .svg {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .socialize__svg {
+    transition: all ease-in-out 0.3s;
+    fill: #c0b7e8;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.link {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  &:hover {
+    color: #8176af;
+    text-shadow: 0px 0px 5px #8176af;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.after__hr {
+  max-width: 1299px;
+  padding: 0 15px;
+  height: 0;
+  border-color: linear-gradient(
+    270deg,
+    #343045 0%,
+    #c0b7e8 34.9%,
+    #8176af 68.75%,
+    #343045 100%
+  );
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    270deg,
+    #343045 0%,
+    #c0b7e8 34.9%,
+    #8176af 68.75%,
+    #343045 100%
+  );
+  border-image-slice: 1;
+  margin-bottom: 49px;
+}
+
+.after {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    .svg {
+      margin: 0;
+    }
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 81px;
+    hr,
+    .services,
+    .faq {
+      display: none;
+    }
+    .socialize__text {
+      text-align: center;
+    }
+
+    .svg {
+      margin: 0;
+    }
+  }
+}

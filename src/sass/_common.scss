@@ -1,1 +1,31 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  background: #302c42;
+}
+
+* {
+  color: #ffffff;
+  font-family: Montserrat, 'serif';
+}
+
+h2 {
+  text-transform: uppercase;
+}
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+input {
+  padding-left: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  overflow: hidden;
+}
